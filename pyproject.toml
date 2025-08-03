@@ -38,8 +38,8 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools.packages.find]
-where =["src"]
-include = ["house_price*", "marvel_characters*"]
+where = ["src"]
+include = ["marvel_characters*"]
 
 
 [tool.setuptools.dynamic]
@@ -81,7 +81,6 @@ lint.ignore = [
     "C901", # too complex
     "ERA001", # commented out code
     "D100", # missing docstring
-    "ERA001" # commented out code
 ]
 
 [tool.ruff.format]
